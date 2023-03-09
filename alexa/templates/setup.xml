@@ -4,10 +4,10 @@
         <major>1</major>
         <minor>0</minor>
     </specVersion>
-    <URLBase>{{baseUrl}}</URLBase>
+    <URLBase>{{{baseUrl}}}</URLBase>
     <device>
         <deviceType>urn:schemas-upnp-org:device:Basic:1</deviceType>
-        <friendlyName>Amazon-Echo-NodeRed-Bridge {{baseUrl}}</friendlyName>
+        <friendlyName>Amazon-Echo-NodeRed-Bridge {{{baseUrl}}}</friendlyName>
         <manufacturer>Royal Philips Electronics</manufacturer>
         <manufacturerURL>https://nitram.at</manufacturerURL>
         <modelDescription>Philips hue Personal Wireless Lighting</modelDescription>
