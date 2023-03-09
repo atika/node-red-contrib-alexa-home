@@ -148,7 +148,7 @@ module.exports = function(RED) {
   AlexaHomeNode.prototype.generateUniqueId = function(uuid) {
     let i = 9;
     const base = '00:11:22:33:44:55:66:77-88';
-    const nodeid = uuid.split('');
+    const nodeid = uuid.replace('.', '').split('');
     const uniqueid = base.replace(/\d/g, () =>
       nodeid.shift() || Math.max(--i, 0), 'g');
     return uniqueid;
